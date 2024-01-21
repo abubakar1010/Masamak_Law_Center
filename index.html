@@ -58,7 +58,7 @@
 
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl">
+                <a class="flex gap-4 text-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
                         <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z"
                             fill="#B68C5A" />
@@ -75,7 +75,7 @@
                             d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z"
                             fill="#B68C5A" />
                     </svg>
-                    <span class="font-extrabold text-3xl ml-2">Justice</span>
+                    <span class="font-extrabold text-3xl ">Justice</span>
                 </a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -153,7 +153,7 @@
 
     <!-- header section end here -->
 
-    <!-- main section here -->
+    <!-- main section start here -->
 
     <main class="container mx-auto">
 
@@ -452,49 +452,53 @@
             <h3 class="font-extrabold text-4xl text-[#414040]">Frequently Asked Any Questions</h3>
             <p class="text-[#707070] mt-4 mb-16 max-w-2xl mx-auto">There are many variations of passages of Lorem
                 Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            </div>
-            
-            <section class="flex flex-1 gap-24 mb-32 flex-col md:flex-row">
+        </div>
+
+        <section class="flex flex-1 gap-24 mb-32 flex-col md:flex-row">
             <!-- faq container start here -->
             <div id="faq-container" class="flex gap-8 flex-col">
-                
+
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" checked="checked" />
                     <div class="collapse-title text-2xl font-extrabold">
-                       1. Are application fee waivers available?
+                        1. Are application fee waivers available?
                     </div>
                     <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-2xl font-extrabold">
+                        1. Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, .</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-2xl font-extrabold">
+                        1. Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, .</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-2xl font-extrabold">
+                        1. Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, .</p>
+                    </div>
                 </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-2xl font-extrabold">
-                   1. Are application fee waivers available?
-                </div>
-                <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
-                </div>
-            </div>
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-2xl font-extrabold">
-                   1. Are application fee waivers available?
-                </div>
-                <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
-                </div>
-            </div>
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-2xl font-extrabold">
-                   1. Are application fee waivers available?
-                </div>
-                <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
-                </div>
-            </div>
-        </div>
             <!-- faq container end here -->
 
             <!-- faq image container start here -->
@@ -512,78 +516,134 @@
         <div class="text-center ">
             <h3 class="font-extrabold text-4xl text-[#414040]">Contact With Us</h3>
             <p class="text-[#707070] mt-4 mb-16 max-w-2xl mx-auto">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
             </p>
-            </div>
+        </div>
 
-            <!-- contact section start here -->
-            <section class="flex gap-7 flex-1 mb-28" >
-                <section id="contact-card-container" class="grid grid-cols-2">
+        <!-- contact section start here -->
+        <section class="flex gap-7 flex-1 mb-28 flex-col md:flex-row">
+            <section id="contact-card-container" class="grid md:grid-cols-2 place-content-center gap-8 md:gap-0">
 
-                    <div class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none border-b-2 border-[#CFCFCF] border-r-2">
-                        <figure class="px-10 pt-10">
-                            <img src="./assets/images/address.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Address</h2>
-                            <p>A108 Moskva river,
-                                Moscow, MM 535022</p>
-                                
-                            </div>
-                        </div>
-                    <div class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none border-b-2 border-[#CFCFCF]">
-                        <figure class="px-10 pt-10">
-                            <img src="./assets/images/call.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Call Us</h2>
-                            <p>+88 01750 00 00 00 <br>
-                                +88 01750 00 00 00</p>
-                                
-                            </div>
-                        </div>
-                    <div class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none border-[#CFCFCF] border-r-2">
-                        <figure class="px-10 pt-10">
-                            <img src="./assets/images/email.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Email Us</h2>
-                            <p>info@gmail.com
-                                info@gmail.com</p>
-                                
-                            </div>
-                        </div>
-                    <div class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none ">
-                        <figure class="px-10 pt-10">
-                            <img src="./assets/images/time.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Working Hours</h2>
-                            <p>Mon-Fri: 9AM to 5PM
-                                Sunday: 9AM to 1 PM</p>
-                                
-                            </div>
-                        </div>
-                    </section>
-    
-                    <section id="input-form-container" class="flex flex-col w-2/4 gap-8">
-                            <input type="text" placeholder="Your Name" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
-                            <input type="email" placeholder="Your Email" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
-                            <input type="text" placeholder="Subject" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
-                            <label class="form-control">
-                                <textarea class="textarea textarea-bordered h-48" placeholder="Your Massage"></textarea>
-                              </label>
-                              <input type="button" value="Send Message" class="bg-[#B68C5A] text-white p-6 text-xl font-semibold">
-                    </section>
+                <div
+                    class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none md:border-b-2 border-[#CFCFCF] md:border-r-2">
+                    <figure class="px-10 pt-10">
+                        <img src="./assets/images/address.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Address</h2>
+                        <p>A108 Moskva river,
+                            Moscow, MM 535022</p>
+
+                    </div>
+                </div>
+                <div
+                    class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none md:border-b-2 border-[#CFCFCF]">
+                    <figure class="px-10 pt-10">
+                        <img src="./assets/images/call.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Call Us</h2>
+                        <p>+88 01750 00 00 00 <br>
+                            +88 01750 00 00 00</p>
+
+                    </div>
+                </div>
+                <div
+                    class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none border-[#CFCFCF] md:border-r-2">
+                    <figure class="px-10 pt-10">
+                        <img src="./assets/images/email.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Email Us</h2>
+                        <p>info@gmail.com
+                            info@gmail.com</p>
+
+                    </div>
+                </div>
+                <div class="card max-w-72 p-8 bg-base-100 shadow-xl bg-[#F3F3F3] rounded-none ">
+                    <figure class="px-10 pt-10">
+                        <img src="./assets/images/time.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Working Hours</h2>
+                        <p>Mon-Fri: 9AM to 5PM
+                            Sunday: 9AM to 1 PM</p>
+
+                    </div>
+                </div>
             </section>
+
+            <section id="input-form-container" class="flex flex-col w-4/5 mx-auto mt-10 md:w-2/4 gap-8">
+                <input type="text" placeholder="Your Name" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
+                <input type="email" placeholder="Your Email" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
+                <input type="text" placeholder="Subject" class="input input-bordered w-full bg-[#F3F3F3] p-8" />
+                <label class="form-control">
+                    <textarea class="textarea textarea-bordered h-48" placeholder="Your Massage"></textarea>
+                </label>
+                <input type="button" value="Send Message" class="bg-[#B68C5A] text-white p-6 text-xl font-semibold">
+            </section>
+        </section>
     </main>
 
     <!-- main section end here -->
 
     <!-- footer section start here -->
 
-    <footer>
+    <footer class="footer py-36 px-10 grid gap-9 grid-cols-2 md:flex lg:gap-28 lg:px-32 bg-black text-base-content">
+        <nav>
 
+            <a class="flex gap-4 text-xl text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                    <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z"
+                        fill="#B68C5A" />
+                    <path
+                        d="M18.8687 12.4708C18.2283 13.1111 17.2038 13.1111 16.6061 12.4708L16.5208 12.3854C15.9231 11.7878 15.9658 10.934 16.4354 10.2509C18.954 6.28084 23.223 2.09729 26.4247 0.304336C27.1504 -0.0798678 27.9615 -0.165247 28.5591 0.432403L28.6872 0.560471C29.2849 1.15812 29.2849 2.18266 28.6872 2.78031L18.8687 12.4708Z"
+                        fill="#B68C5A" />
+                    <path
+                        d="M32.0597 25.7045C31.4193 26.3448 31.4193 27.3267 32.0597 27.967L32.145 28.0524C32.7427 28.65 33.5965 28.6073 34.2795 28.1804C38.2923 25.6618 42.5185 21.4355 44.3115 18.2338C44.6957 17.5081 44.7811 16.697 44.1834 16.0994L44.0553 15.9713C43.4577 15.3737 42.4332 15.331 41.7928 15.9713L32.0597 25.7045Z"
+                        fill="#B68C5A" />
+                    <path
+                        d="M1.23799 43.1644C1.02454 43.079 0.939164 42.8229 0.768407 42.6948C0.256135 42.0118 0 41.158 0 40.3042C0.0426893 39.237 0.469582 38.2551 1.28068 37.5294L22.1557 19.173L23.7779 20.7525L25.3574 22.3747L6.87297 43.1217C6.14726 43.8901 5.1654 44.3597 4.09817 44.4024C3.24439 44.4024 2.3906 44.1462 1.70757 43.634C1.53681 43.4632 1.32337 43.3778 1.23799 43.1644Z"
+                        fill="#B68C5A" />
+                    <path
+                        d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z"
+                        fill="#B68C5A" />
+                </svg>
+                <span class="font-extrabold text-3xl ">Justice</span>
+            </a>
+            <p class="max-w-64 mt-8 text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected humour.</p>
+
+        </nav>
+        <nav>
+            <header class=" mb-5 text-white text-xl font-extrabold">Useful Link</header>
+            <a class="link link-hover text-[#CFCFCF]">Home</a>
+            <a class="link link-hover text-[#CFCFCF]">About us</a>
+            <a class="link link-hover text-[#CFCFCF]">Cases</a>
+            <a class="link link-hover text-[#CFCFCF]">Contact us</a>
+            <a class="link link-hover text-[#CFCFCF]">Blogs</a>
+        </nav>
+        <nav>
+            <header class=" mb-5 text-white text-xl font-extrabold">Contact Now</header>
+            <a class="link link-hover text-[#CFCFCF]">5595 NCD 4th 5t MM, <br> Moscow
+                89730, Russia</a>
+            <a class="link link-hover text-[#CFCFCF]">+88 01750 000 000 <br>
+                +88 01750 000 000</a>
+            <a class="link link-hover text-[#CFCFCF]">info@gmail.com <br>
+                info@gmail.com</a>
+        </nav>
+        <form>
+            <header class=" mb-5 text-white text-xl font-extrabold">Subscribe</header>
+            <p class="max-w-52 mb-5 text-[#CFCFCF]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <fieldset class="form-control w-80">
+                
+                <div class="join relative">
+                    <input type="text" placeholder="Email Address" class="input input-bordered join-item rounded-r-none outline-none border-none" />
+                    <button class="btn bg-[#B68C5A] text-white rounded-md -translate-x-8"><i class="fa-regular fa-paper-plane"></i></button>
+                </div>
+            </fieldset>
+        </form>
     </footer>
 
     <!-- footer section end here -->
